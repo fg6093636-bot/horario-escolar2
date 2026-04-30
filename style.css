@@ -1,0 +1,59 @@
+body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-sessao {
+    color: #2ea043;
+    border-bottom: 2px solid #2ea043;
+    margin-bottom: 30px;
+}
+
+.sessao {
+    background-color: #161b22;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+    border: 1px solid #30363d;
+}
+
+h3 {
+    color: #58a6ff;
+    margin-top: 0;
+}
+
+.lista-hobbies {
+    line-height: 1.8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* Requisito: Semântica th para títulos das colunas */
+th {
+    background-color: #21262d;
+    color: #2ea043;
+    padding: 12px;
+    border: 1px solid #30363d;
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #30363d;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #0d1117; /* Deixa a tabela listrada para ler melhor */
+}
